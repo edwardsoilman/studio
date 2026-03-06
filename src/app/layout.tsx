@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: 'Meddlington Press',
-  description: 'A contemporary publishing house for unique voices.',
+  description: 'Celebrating neurodiversity with imaginative children\'s books.',
 };
 
 export default function RootLayout({

@@ -6,7 +6,6 @@ import { getPlaceholderImage } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Separator } from '@/components/ui/separator';
 
 export const metadata = {
   title: 'Wholesale | Meddlington Press',
@@ -18,18 +17,12 @@ export default function WholesalePage() {
     <div className="container mx-auto px-4 py-12 md:py-16">
       <div className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary">
-          Wholesale & Booksellers
+          Wholesale Orders
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
-          We love partnering with bookstores and retailers. Our titles are available for wholesale purchase through Ingram Spark. For direct inquiries, please use the form on our contact page.
+          Libraries, bookstores, and educational organizations can order our titles through IngramSpark. Please follow the links below to access wholesale ordering information.
         </p>
       </div>
-
-      <Separator className="my-16" />
-
-      <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary text-center mb-12">
-        Available Titles
-      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {books.map((book) => {

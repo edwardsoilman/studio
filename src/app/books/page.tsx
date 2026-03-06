@@ -11,7 +11,7 @@ export default function BooksPage() {
     <div className="container mx-auto px-4 py-12 md:py-16">
       <div className="text-center mb-12">
         <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary">
-          Our Collection
+          Our Books
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-foreground/80">
           Discover a world of stories. Browse our full catalog of published works and get a sneak peek at what's coming soon.

@@ -13,7 +13,6 @@ const navLinks = [
   { href: "/books", label: "Books" },
   { href: "/wholesale", label: "Wholesale" },
   { href: "/contact", label: "Contact" },
-  { href: "/ai-blurb-generator", label: "AI Blurbs" },
 ];
 
 export function Header() {
@@ -22,8 +21,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <BookOpenText className="h-6 w-6 text-primary" />
+        <Link href="/" className="mr-6 flex items-center space-x-2 group">
+          <BookOpenText className="h-6 w-6 text-primary transition-transform duration-300 group-hover:scale-110" />
           <span className="font-bold font-headline inline-block text-primary">
             Meddlington Press
           </span>
