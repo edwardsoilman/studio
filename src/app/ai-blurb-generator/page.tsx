@@ -1,7 +1,7 @@
 import { BlurbGenerator } from "@/components/blurb-generator";
 
 export const metadata = {
-  title: 'AI Blurb Generator | Meddlington Reader',
+  title: 'AI Blurb Generator | Meddlington Press',
   description: 'Use our AI-powered tool to generate compelling marketing blurbs for your books.',
 };
 

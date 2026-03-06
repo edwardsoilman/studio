@@ -30,7 +30,7 @@ export default function Home() {
             Where Stories Take Flight
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-foreground/80 mb-8">
-            Meddlington Reader is a contemporary publishing house dedicated to discovering and nurturing unique voices that challenge, inspire, and entertain.
+            Meddlington Press is a contemporary publishing house dedicated to discovering and nurturing unique voices that challenge, inspire, and entertain.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
             <Link href="/books">

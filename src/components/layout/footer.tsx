@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center md:flex-row gap-4">
           <BookOpenText className="h-6 w-6 text-muted-foreground" />
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © {new Date().getFullYear()} Meddlington Reader. All Rights Reserved.
+            © {new Date().getFullYear()} Meddlington Press. All Rights Reserved.
           </p>
         </div>
       </div>

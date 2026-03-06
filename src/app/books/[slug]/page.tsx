@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: BookPageProps) {
   }
 
   return {
-    title: `${book.title} | Meddlington Reader`,
+    title: `${book.title} | Meddlington Press`,
     description: book.description,
   }
 }

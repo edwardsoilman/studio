@@ -1,5 +1,5 @@
 import { Mail, Landmark, Newspaper } from "lucide-react";
-
+import { Label } from "@/components/ui/label";
 import {
   Form,
   FormControl,
@@ -13,8 +13,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 
 export const metadata = {
-  title: 'Contact Us | Meddlington Reader',
-  description: 'Get in touch with Meddlington Reader for inquiries, submissions, or wholesale questions.',
+  title: 'Contact Us | Meddlington Press',
+  description: 'Get in touch with Meddlington Press for inquiries, submissions, or wholesale questions.',
 };
 
 export default function ContactPage() {

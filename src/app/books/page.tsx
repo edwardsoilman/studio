@@ -2,7 +2,7 @@ import { books } from '@/lib/data';
 import { BookList } from '@/components/book-list';
 
 export const metadata = {
-  title: 'Our Books | Meddlington Reader',
+  title: 'Our Books | Meddlington Press',
   description: 'Browse our complete collection of published and upcoming books.',
 };
 

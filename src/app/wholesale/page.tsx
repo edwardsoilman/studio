@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 
 export const metadata = {
-  title: 'Wholesale | Meddlington Reader',
+  title: 'Wholesale | Meddlington Press',
   description: 'Information for our wholesale partners and booksellers.',
 };
 

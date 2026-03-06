@@ -5,7 +5,7 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Meddlington Reader',
+  title: 'Meddlington Press',
   description: 'A contemporary publishing house for unique voices.',
 };
 
