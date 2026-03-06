@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/books", label: "Books" },
   { href: "/wholesale", label: "Wholesale" },
   { href: "/contact", label: "Contact" },
+  { href: "/ai-blurb-generator", label: "AI Blurb Generator" },
 ];
 
 export function Header() {
