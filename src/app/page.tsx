@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Home() {
   const heroImage = getPlaceholderImage('hero-spectrum');
-  const highlightedBooks = books.filter(b => b.status === 'Published').slice(0, 4);
+  const highlightedBooks = books.slice(0, 4);
 
   return (
     <div className="flex flex-col">
@@ -39,8 +39,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Highlighted Books Section */}
+      {/* Intro Section */}
       <section className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4 text-center max-w-3xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-6">
+            Welcome to Meddlington Press
+          </h2>
+          <div className="prose prose-lg max-w-none mx-auto text-foreground/80">
+            <p>
+              Meddlington Press is a small, independent publishing house focused on stories that embrace difference, imagination, and the brilliance of neurodivergent minds. We deliver children’s novels that entertain, inspire, and empower young readers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Highlighted Books Section */}
+      <section className="py-16 md:py-24 bg-secondary/20">
         <div className="container mx-auto px-4">
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary text-center mb-12">
             Featured Titles

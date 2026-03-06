@@ -3,7 +3,7 @@ import type { Book } from '@/lib/types';
 export const books: Book[] = [
   {
     id: 1,
-    slug: 'orla-storms-an-interstellar-voyage',
+    slug: 'orla-storm-an-interstellar-voyage',
     title: 'Orla Storm: An Interstellar Voyage',
     author: 'W Valentine',
     coverImageId: 'orla-storms-cover',
@@ -19,11 +19,11 @@ export const books: Book[] = [
     id: 2,
     slug: 'finns-wave-of-change',
     title: 'Finn’s Wave of Change',
-    author: 'Coral Waters',
+    author: 'W Valentine',
     coverImageId: 'finns-wave-cover',
     description: 'A heartwarming story about resilience, friendship, and embracing difference.',
     longDescription: 'Finn feels everything as deeply as the ocean. Some days the waves are calm, but other days they crash and roar. This heartwarming story follows Finn as he learns to surf the tides of his emotions with the help of a wise old sea turtle and a friend who understands him. It\'s a tale of resilience, friendship, and the beauty of embracing our own currents.',
-    authorBio: 'Coral Waters is a child psychologist and author who lives by the sea. Her stories are inspired by the resilience of children and the calming power of nature.',
+    authorBio: 'W Valentine lives on the west coast of Ireland and draws inspiration from the landscapes and stories of his home.\n\nAs someone on the spectrum, he brings a unique perspective to his writing, which focuses on neurodivergent experiences to raise awareness among schools, teachers, and the wider public.\n\nHis debut novel, Orla Storm: An Interstellar Voyage, was inspired by becoming a father and a lifelong love of children’s literature.\n\nThrough vivid, technicolour characters, his stories celebrate difference, imagination, and the joy of discovery. He continues to write while building a growing family and hopes to share more adventures in future titles.',
     genre: 'Picture Book',
     status: 'Coming Soon',
     amazonLink: '#',

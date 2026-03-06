@@ -4,7 +4,7 @@
       "id": "hero-spectrum",
       "description": "Abstract city lights at night",
       "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/2024-08-02T22_38_05.932Z/original.png",
-      "imageHint": "city lights"
+      "imageHint": "abstract spectrum"
     },
     {
       "id": "child-reading",
@@ -14,14 +14,14 @@
     },
     {
       "id": "orla-storms-cover",
-      "description": "Book cover for Orla Storms: An Interstellar Voyage",
-      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/generations/2024-08-01T21:49:15.939Z-0/image.jpg",
+      "description": "Book cover for Orla Storm: An Interstellar Voyage",
+      "imageUrl": "https://picsum.photos/seed/orla/400/600",
       "imageHint": "girl spaceship"
     },
     {
       "id": "finns-wave-cover",
       "description": "Book cover for Finn’s Wave of Change",
-      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/generations/2024-08-01T21:49:43.766Z-0/image.jpg",
+      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/finn_wave_final.jpg",
       "imageHint": "boy ocean"
     },
     {
