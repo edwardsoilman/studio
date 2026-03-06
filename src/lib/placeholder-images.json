@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-spectrum",
-      "description": "Abstract spectrum illustration for the hero section",
-      "imageUrl": "https://picsum.photos/seed/100/1200/600",
-      "imageHint": "abstract colorful"
+      "description": "Blurry city lights at night",
+      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/generations/2024-08-01T15:23:05.110Z-0/image.jpg",
+      "imageHint": "city lights"
     },
     {
       "id": "child-reading",
