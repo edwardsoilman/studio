@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpenText, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -22,7 +22,21 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2 group">
-          <BookOpenText className="h-6 w-6 text-primary transition-transform duration-300 group-hover:scale-110" />
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="text-primary transition-transform duration-300 group-hover:scale-110"
+          >
+            <path
+              d="M10 10H90V90H10V10Z"
+              stroke="currentColor"
+              strokeWidth="8"
+            />
+            <path d="M35 35H65V65H35V35Z" fill="currentColor" />
+          </svg>
           <span className="font-bold font-headline inline-block text-primary">
             Meddlington Press
           </span>
@@ -57,7 +71,21 @@ export function Header() {
                   href="/"
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
-                  <BookOpenText className="h-6 w-6 text-primary" />
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 100 100"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="text-primary"
+                  >
+                    <path
+                      d="M10 10H90V90H10V10Z"
+                      stroke="currentColor"
+                      strokeWidth="8"
+                    />
+                    <path d="M35 35H65V65H35V35Z" fill="currentColor" />
+                  </svg>
                   <span className="font-bold font-headline text-primary">
                     Meddlington Press
                   </span>
