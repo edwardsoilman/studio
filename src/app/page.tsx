@@ -9,7 +9,6 @@ import { Button } from '@/components/ui/button';
 
 export default function Home() {
   const heroImage = getPlaceholderImage('hero-spectrum');
-  const introImage = getPlaceholderImage('child-reading');
   const highlightedBooks = books.filter(b => b.status === 'Published').slice(0, 4);
 
   return (
@@ -54,32 +53,6 @@ export default function Home() {
         </div>
       </section>
       
-      {/* Intro Section */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
-            <div className="rounded-lg overflow-hidden shadow-lg">
-               <Image
-                src={introImage.imageUrl}
-                alt={introImage.description}
-                width={800}
-                height={600}
-                className="object-cover w-full h-full"
-                data-ai-hint={introImage.imageHint}
-              />
-            </div>
-            <div className="text-center md:text-left">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-4">
-                Embracing Every Mind
-              </h2>
-              <p className="text-lg text-foreground/80">
-                Meddlington Press is a small, independent publishing house focused on stories that embrace difference, imagination, and the brilliance of neurodivergent minds. We deliver children’s novels that entertain, inspire, and empower young readers.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
     </div>
   );
 }
