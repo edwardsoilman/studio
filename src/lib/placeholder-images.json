@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-spectrum",
-      "description": "Children reading a book together under a tree",
-      "imageUrl": "https://images.unsplash.com/photo-1533167542228-33663b06850d?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "children reading"
+      "description": "Abstract city lights at night",
+      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/2024-08-02T22_38_05.932Z/original.png",
+      "imageHint": "city lights"
     },
     {
       "id": "child-reading",
