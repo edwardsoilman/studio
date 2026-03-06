@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-spectrum",
+      "description": "Abstract spectrum illustration for the hero section",
+      "imageUrl": "https://picsum.photos/seed/100/1200/600",
+      "imageHint": "abstract colorful"
+    },
+    {
+      "id": "child-reading",
+      "description": "Engaging photo of a child reading a book",
+      "imageUrl": "https://picsum.photos/seed/101/800/600",
+      "imageHint": "child reading"
+    },
+    {
+      "id": "book-cover-1",
+      "description": "Book cover for The Whispering Woods",
+      "imageUrl": "https://picsum.photos/seed/books1/400/600",
+      "imageHint": "fantasy forest"
+    },
+    {
+      "id": "book-cover-2",
+      "description": "Book cover for City of Echoes",
+      "imageUrl": "https://picsum.photos/seed/books2/400/600",
+      "imageHint": "cyberpunk city"
+    },
+    {
+      "id": "book-cover-3",
+      "description": "Book cover for The Last Stargazer",
+      "imageUrl": "https://picsum.photos/seed/books3/400/600",
+      "imageHint": "galaxy stars"
+    },
+    {
+      "id": "book-cover-4",
+      "description": "Book cover for Recipes of the Forgotten",
+      "imageUrl": "https://picsum.photos/seed/books4/400/600",
+      "imageHint": "old cookbook"
+    },
+    {
+      "id": "book-cover-5",
+      "description": "Book cover for The Clockwork Heart",
+      "imageUrl": "https://picsum.photos/seed/books5/400/600",
+      "imageHint": "steampunk gears"
+    },
+    {
+      "id": "book-cover-6",
+      "description": "Book cover for Beneath the Surface",
+      "imageUrl": "https://picsum.photos/seed/books6/400/600",
+      "imageHint": "ocean depths"
+    }
+  ]
 }
