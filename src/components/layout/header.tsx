@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -20,8 +21,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center px-4">
-        <Link href="/" className="mr-6 flex items-center space-x-2 group">
+      <div className="container flex h-16 items-center justify-between px-4">
+        <Link href="/" className="flex items-center space-x-2 group">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 75"
@@ -35,7 +36,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex md:flex-1 items-center space-x-6 text-sm font-medium">
+        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -50,7 +51,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex flex-1 items-center justify-end md:hidden">
+        <div className="flex items-center justify-end md:hidden">
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
