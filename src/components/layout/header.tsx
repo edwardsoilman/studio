@@ -21,8 +21,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center space-x-2 group">
+      <div className="container flex h-16 items-center px-4">
+        <Link href="/" className="flex items-center space-x-2 group mr-auto">
           <Image
             src="/logo.svg"
             alt="Meddlington Press Logo"
@@ -35,63 +35,61 @@ export function Header() {
           </span>
         </Link>
 
-        <div>
-          <nav className="hidden md:flex items-center space-x-6 text-sm font-bold">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={cn(
-                  "transition-colors hover:text-primary",
-                  pathname === link.href ? "text-primary" : "text-foreground/60"
-                )}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+        <nav className="hidden md:flex items-center space-x-6 text-sm font-bold">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={cn(
+                "transition-colors hover:text-primary",
+                pathname === link.href ? "text-primary" : "text-foreground/60"
+              )}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
 
-          <div className="flex items-center justify-end md:hidden">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Toggle navigation menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right">
-                <nav className="grid gap-6 text-lg font-semibold mt-8">
+        <div className="flex items-center justify-end md:hidden">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Toggle navigation menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+              <nav className="grid gap-6 text-lg font-semibold mt-8">
+                <Link
+                  href="/"
+                  className="flex items-center gap-2 text-lg font-semibold"
+                >
+                  <Image
+                    src="/logo.svg"
+                    alt="Meddlington Press Logo"
+                    width={24}
+                    height={24}
+                    className="h-6 w-6"
+                  />
+                  <span className="font-bold font-body text-primary">
+                    Meddlington Press
+                  </span>
+                </Link>
+                {navLinks.map((link) => (
                   <Link
-                    href="/"
-                    className="flex items-center gap-2 text-lg font-semibold"
+                    key={link.href}
+                    href={link.href}
+                    className={cn(
+                      "transition-colors hover:text-primary",
+                       pathname === link.href ? "text-foreground" : "text-muted-foreground"
+                    )}
                   >
-                    <Image
-                      src="/logo.svg"
-                      alt="Meddlington Press Logo"
-                      width={24}
-                      height={24}
-                      className="h-6 w-6"
-                    />
-                    <span className="font-bold font-body text-primary">
-                      Meddlington Press
-                    </span>
+                    {link.label}
                   </Link>
-                  {navLinks.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className={cn(
-                        "transition-colors hover:text-primary",
-                         pathname === link.href ? "text-foreground" : "text-muted-foreground"
-                      )}
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </nav>
-              </SheetContent>
-            </Sheet>
-          </div>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
