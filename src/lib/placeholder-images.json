@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-spectrum",
-      "description": "Abstract city lights at night",
+      "description": "Abstract image of a sunset over a body of water.",
       "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/2024-08-02T22_38_05.932Z/original.png",
-      "imageHint": "abstract spectrum"
+      "imageHint": "sunset water"
     },
     {
       "id": "child-reading",
@@ -25,16 +25,16 @@
       "imageHint": "boy ocean"
     },
     {
-      "id": "young-reader-1-cover",
-      "description": "Book cover for a young reader book",
-      "imageUrl": "https://picsum.photos/seed/young1/400/600",
-      "imageHint": "night sky"
+      "id": "marooned-pirate-pigs-cover",
+      "description": "Book cover for Marooned Pirate Pigs",
+      "imageUrl": "https://picsum.photos/seed/pigs/400/600",
+      "imageHint": "pirate pigs"
     },
     {
-      "id": "young-reader-2-cover",
-      "description": "Book cover for another young reader book",
-      "imageUrl": "https://picsum.photos/seed/young2/400/600",
-      "imageHint": "forest textures"
+      "id": "the-barefoot-family-cover",
+      "description": "Book cover for The Barefoot Family",
+      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/barefoot-family.png",
+      "imageHint": "family nature"
     }
   ]
 }
