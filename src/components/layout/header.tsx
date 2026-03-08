@@ -30,7 +30,7 @@ export function Header() {
           >
             <path d="M0 75V0H25L50 37.5L75 0H100V75H75V25L50 50L25 25V75H0Z" />
           </svg>
-          <span className="font-bold font-headline inline-block text-primary">
+          <span className="font-bold font-body inline-block text-primary">
             Meddlington Press
           </span>
         </Link>
@@ -72,7 +72,7 @@ export function Header() {
                   >
                     <path d="M0 75V0H25L50 37.5L75 0H100V75H75V25L50 50L25 25V75H0Z" />
                   </svg>
-                  <span className="font-bold font-headline text-primary">
+                  <span className="font-bold font-body text-primary">
                     Meddlington Press
                   </span>
                 </Link>

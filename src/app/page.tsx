@@ -25,8 +25,8 @@ export default function Home() {
           data-ai-hint={heroImage.imageHint}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent to-50%" />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-2">
-          <h1 className="font-headline text-xl md:text-3xl font-bold mb-2" style={{ color: '#FFFFF0' }}>
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-12">
+          <h1 className="font-headline text-xl md:text-2xl font-bold mb-2 text-primary">
             Stories Across the Full Spectrum
           </h1>
           <p className="max-w-2xl text-sm text-primary-foreground/80 mb-6 -mt-1">
