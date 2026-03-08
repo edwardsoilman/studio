@@ -24,8 +24,8 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-8 md:pb-12">
-          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-8 [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-10 md:pb-14">
+          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-10 [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
             Bold, imaginative children’s books celebrating neurodiversity and curiosity.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
