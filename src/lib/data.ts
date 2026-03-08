@@ -15,6 +15,7 @@ export const books: Book[] = [
     status: 'Published',
     amazonLink: 'https://www.amazon.com',
     ingramLink: '#',
+    format: 'portrait',
   },
   {
     id: 2,
@@ -29,6 +30,7 @@ export const books: Book[] = [
     status: 'Coming Soon',
     amazonLink: '#',
     ingramLink: '#',
+    format: 'square',
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export const books: Book[] = [
     status: 'Coming Soon',
     amazonLink: '#',
     ingramLink: '#',
+    format: 'square',
   },
   {
     id: 4,
@@ -57,5 +60,6 @@ export const books: Book[] = [
     status: 'Coming Soon',
     amazonLink: '#',
     ingramLink: '#',
+    format: 'square',
   },
 ];

@@ -5,6 +5,7 @@ import type { Book } from '@/lib/types';
 import { getPlaceholderImage } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { cn } from '@/lib/utils';
 
 interface BookCardProps {
   book: Book;
@@ -17,7 +18,12 @@ export function BookCard({ book }: BookCardProps) {
     <Link href={`/books/${book.slug}`} className="group block">
       <Card className="h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1">
         <CardHeader className="p-0">
-          <div className="relative aspect-[2/3] w-full">
+          <div
+            className={cn(
+              'relative w-full',
+              book.format === 'portrait' ? 'aspect-[2/3]' : 'aspect-square'
+            )}
+          >
             <Image
               src={coverImage.imageUrl}
               alt={`Cover of ${book.title}`}

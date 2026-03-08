@@ -11,4 +11,5 @@ export interface Book {
   status: 'Published' | 'Coming Soon';
   amazonLink: string;
   ingramLink: string;
+  format: 'portrait' | 'square';
 }

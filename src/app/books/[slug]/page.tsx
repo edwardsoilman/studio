@@ -7,6 +7,7 @@ import { getPlaceholderImage } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
+import { cn } from '@/lib/utils';
 
 interface BookPageProps {
   params: {
@@ -49,12 +50,17 @@ export default function BookPage({ params }: BookPageProps) {
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         <div className="md:col-span-1">
           <div className="sticky top-24">
-            <div className="aspect-[2/3] w-full max-w-sm mx-auto rounded-lg overflow-hidden shadow-lg">
+            <div
+              className={cn(
+                'w-full max-w-sm mx-auto rounded-lg overflow-hidden shadow-lg',
+                book.format === 'portrait' ? 'aspect-[2/3]' : 'aspect-square'
+              )}
+            >
               <Image
                 src={coverImage.imageUrl}
                 alt={`Cover of ${book.title}`}
-                width={400}
-                height={600}
+                width={book.format === 'portrait' ? 400 : 400}
+                height={book.format === 'portrait' ? 600 : 400}
                 className="object-cover w-full h-full"
                 data-ai-hint={coverImage.imageHint}
               />

@@ -6,6 +6,7 @@ import { getPlaceholderImage } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { cn } from '@/lib/utils';
 
 export const metadata = {
   title: 'Wholesale | Meddlington Press',
@@ -30,7 +31,12 @@ export default function WholesalePage() {
           return (
             <Card key={book.id} className="flex flex-col">
               <CardHeader>
-                <div className="relative aspect-[2/3] w-full">
+                <div
+                  className={cn(
+                    'relative w-full',
+                    book.format === 'portrait' ? 'aspect-[2/3]' : 'aspect-square'
+                  )}
+                >
                   <Image
                     src={coverImage.imageUrl}
                     alt={`Cover of ${book.title}`}
