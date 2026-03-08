@@ -3,7 +3,7 @@
     {
       "id": "hero-spectrum",
       "description": "Abstract image of a sunset over a body of water.",
-      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/2024-08-02T22_38_05.932Z/original.png",
+      "imageUrl": "https://picsum.photos/seed/hero/1200/800",
       "imageHint": "sunset water"
     },
     {
@@ -15,13 +15,13 @@
     {
       "id": "orla-storms-cover",
       "description": "Book cover for Orla Storm: An Interstellar Voyage",
-      "imageUrl": "https://picsum.photos/seed/orla/400/600",
+      "imageUrl": "https://picsum.photos/seed/orla-storm/400/600",
       "imageHint": "girl spaceship"
     },
     {
       "id": "finns-wave-cover",
       "description": "Book cover for Finn’s Wave of Change",
-      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/finn_wave_final.jpg",
+      "imageUrl": "https://picsum.photos/seed/finns-wave/400/600",
       "imageHint": "boy ocean"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "the-barefoot-family-cover",
       "description": "Book cover for The Barefoot Family",
-      "imageUrl": "https://storage.googleapis.com/project-spark-b2496495-2dcb-4299-92f7-826029519198/uploads/barefoot-family.png",
+      "imageUrl": "https://picsum.photos/seed/barefoot/400/600",
       "imageHint": "family nature"
     }
   ]
