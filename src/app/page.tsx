@@ -24,12 +24,8 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/20" />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-8">
-          <h1 className="font-headline text-5xl md:text-6xl font-bold mb-4 text-primary">
-            Stories Across the Full Spectrum
-          </h1>
-          <p className="max-w-2xl text-xl text-primary font-bold mb-8">
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-12 md:pb-20">
+          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-6 [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]">
             Bold, imaginative children’s books celebrating neurodiversity and curiosity.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
