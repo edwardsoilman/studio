@@ -1,7 +1,7 @@
-
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 
@@ -23,21 +23,20 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2 group">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 75"
-            className="h-7 w-7 text-primary transition-transform duration-300 group-hover:scale-110"
-            fill="currentColor"
-          >
-            <path d="M0 75V0H25L50 37.5L75 0H100V75H75V25L50 50L25 25V75H0Z" />
-          </svg>
+          <Image
+            src="/logo.svg"
+            alt="Meddlington Press Logo"
+            width={28}
+            height={28}
+            className="h-7 w-7 transition-transform duration-300 group-hover:scale-110"
+          />
           <span className="font-bold font-body inline-block text-primary">
             Meddlington Press
           </span>
         </Link>
 
         <div>
-          <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold">
+          <nav className="hidden md:flex items-center space-x-6 text-sm font-bold">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -66,14 +65,13 @@ export function Header() {
                     href="/"
                     className="flex items-center gap-2 text-lg font-semibold"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 100 75"
-                      className="h-6 w-6 text-primary"
-                      fill="currentColor"
-                    >
-                      <path d="M0 75V0H25L50 37.5L75 0H100V75H75V25L50 50L25 25V75H0Z" />
-                    </svg>
+                    <Image
+                      src="/logo.svg"
+                      alt="Meddlington Press Logo"
+                      width={24}
+                      height={24}
+                      className="h-6 w-6"
+                    />
                     <span className="font-bold font-body text-primary">
                       Meddlington Press
                     </span>
