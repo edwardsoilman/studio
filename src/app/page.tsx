@@ -9,7 +9,7 @@ import { BookCard } from '@/components/book-card';
 import { Button } from '@/components/ui/button';
 
 export default function Home() {
-  const heroImage = getPlaceholderImage('hero-spectrum');
+  const heroImage = getPlaceholderImage('herospectrum');
   const highlightedBooks = books.slice(0, 4);
 
   return (

@@ -1,39 +1,39 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-spectrum",
+      "id": "herospectrum",
       "description": "Abstract image of a sunset over a body of water.",
-      "imageUrl": "/hero-spectrum.jpg",
+      "imageUrl": "/herospectrum.jpg",
       "imageHint": "sunset water"
     },
     {
-      "id": "child-reading",
+      "id": "childreading",
       "description": "Engaging photo of a child reading a book",
       "imageUrl": "https://picsum.photos/seed/101/800/600",
       "imageHint": "child reading"
     },
     {
-      "id": "orla-storms-cover",
+      "id": "orlastormcover",
       "description": "Book cover for Orla Storm: An Interstellar Voyage",
-      "imageUrl": "/orla-storms-cover.png",
+      "imageUrl": "/orlastormcover.png",
       "imageHint": "girl spaceship"
     },
     {
-      "id": "finns-wave-cover",
+      "id": "finnswavecover",
       "description": "Book cover for Finn’s Wave of Change",
-      "imageUrl": "/finns-wave-cover.png",
+      "imageUrl": "/finnswavecover.png",
       "imageHint": "boy ocean"
     },
     {
-      "id": "marooned-pirate-pigs-cover",
+      "id": "maroonedpiratepigscover",
       "description": "Book cover for Marooned Pirate Pigs",
-      "imageUrl": "/marooned-pirate-pigs-cover.png",
+      "imageUrl": "/maroonedpiratepigscover.png",
       "imageHint": "pirate pigs"
     },
     {
-      "id": "the-barefoot-family-cover",
+      "id": "thebarefootfamilycover",
       "description": "Book cover for The Barefoot Family",
-      "imageUrl": "/the-barefoot-family-cover.png",
+      "imageUrl": "/thebarefootfamilycover.png",
       "imageHint": "family nature"
     }
   ]
