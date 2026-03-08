@@ -24,8 +24,8 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-6 md:pb-12">
+        <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent to-50%" />
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-2 md:pb-8">
           <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-4">
             Stories Across the Full Spectrum
           </h1>
