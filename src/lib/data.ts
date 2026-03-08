@@ -30,7 +30,7 @@ export const books: Book[] = [
     status: 'Coming Soon',
     amazonLink: '#',
     ingramLink: '#',
-    format: 'square',
+    format: 'portrait',
   },
   {
     id: 3,
