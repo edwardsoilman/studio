@@ -24,12 +24,12 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent to-70%" />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-2">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold mb-4 text-primary">
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/20" />
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-8">
+          <h1 className="font-headline text-5xl md:text-6xl font-bold mb-4 text-primary">
             Stories Across the Full Spectrum
           </h1>
-          <p className="max-w-2xl text-xl font-bold text-primary mb-8">
+          <p className="max-w-2xl text-xl text-primary font-bold mb-8">
             Bold, imaginative children’s books celebrating neurodiversity and curiosity.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
@@ -68,6 +68,24 @@ export default function Home() {
         </div>
       </section>
       
+      {/* Contact CTA Section */}
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4 text-center max-w-3xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-6">
+            Get In Touch
+          </h2>
+          <div className="prose prose-lg max-w-none mx-auto text-foreground/80 mb-8">
+            <p>
+              Have a question, a submission, or a wholesale inquiry? We'd love to hear from you.
+            </p>
+          </div>
+          <Button asChild size="lg" className="font-bold">
+            <Link href="/contact">
+              Contact Us <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
+        </div>
+      </section>
     </div>
   );
 }
