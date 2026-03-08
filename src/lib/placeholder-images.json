@@ -1,9 +1,9 @@
 {
   "placeholderImages": [
     {
-      "id": "herospectrum",
+      "id": "hero-spectrum",
       "description": "Abstract image of a sunset over a body of water.",
-      "imageUrl": "/herospectrum.jpg",
+      "imageUrl": "/spectrum.jpg",
       "imageHint": "sunset water"
     },
     {
@@ -13,27 +13,27 @@
       "imageHint": "child reading"
     },
     {
-      "id": "orlastormcover",
+      "id": "orla-storm-cover",
       "description": "Book cover for Orla Storm: An Interstellar Voyage",
-      "imageUrl": "/orlastormcover.png",
+      "imageUrl": "/orla-storm-cover.png",
       "imageHint": "girl spaceship"
     },
     {
-      "id": "finnswavecover",
+      "id": "finns-wave-cover",
       "description": "Book cover for Finn’s Wave of Change",
-      "imageUrl": "/finnswavecover.png",
+      "imageUrl": "/finns-wave-cover.png",
       "imageHint": "boy ocean"
     },
     {
-      "id": "maroonedpiratepigscover",
+      "id": "marooned-pirate-pigs-cover",
       "description": "Book cover for Marooned Pirate Pigs",
-      "imageUrl": "/maroonedpiratepigscover.png",
+      "imageUrl": "/marooned-pirate-pigs-cover.png",
       "imageHint": "pirate pigs"
     },
     {
-      "id": "thebarefootfamilycover",
+      "id": "the-barefoot-family-cover",
       "description": "Book cover for The Barefoot Family",
-      "imageUrl": "/thebarefootfamilycover.png",
+      "imageUrl": "/the-barefoot-family-cover.png",
       "imageHint": "family nature"
     }
   ]
