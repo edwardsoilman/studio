@@ -3,7 +3,7 @@
     {
       "id": "hero-spectrum",
       "description": "Abstract image of a sunset over a body of water.",
-      "imageUrl": "/images/hero-spectrum.jpg",
+      "imageUrl": "/hero-spectrum.jpg",
       "imageHint": "sunset water"
     },
     {
@@ -15,25 +15,25 @@
     {
       "id": "orla-storms-cover",
       "description": "Book cover for Orla Storm: An Interstellar Voyage",
-      "imageUrl": "/images/orla-storms-cover.png",
+      "imageUrl": "/orla-storms-cover.png",
       "imageHint": "girl spaceship"
     },
     {
       "id": "finns-wave-cover",
       "description": "Book cover for Finn’s Wave of Change",
-      "imageUrl": "/images/finns-wave-cover.png",
+      "imageUrl": "/finns-wave-cover.png",
       "imageHint": "boy ocean"
     },
     {
       "id": "marooned-pirate-pigs-cover",
       "description": "Book cover for Marooned Pirate Pigs",
-      "imageUrl": "/images/marooned-pirate-pigs-cover.png",
+      "imageUrl": "/marooned-pirate-pigs-cover.png",
       "imageHint": "pirate pigs"
     },
     {
       "id": "the-barefoot-family-cover",
       "description": "Book cover for The Barefoot Family",
-      "imageUrl": "/images/the-barefoot-family-cover.png",
+      "imageUrl": "/the-barefoot-family-cover.png",
       "imageHint": "family nature"
     }
   ]
