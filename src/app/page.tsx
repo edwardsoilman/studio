@@ -24,8 +24,8 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-12 md:pb-20">
-          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-6 [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]">
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-12 md:pb-16">
+          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-6 [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
             Bold, imaginative children’s books celebrating neurodiversity and curiosity.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
@@ -75,7 +75,7 @@ export default function Home() {
               Have a question, a submission, or a wholesale inquiry? We'd love to hear from you.
             </p>
           </div>
-          <Button asChild size="lg" className="font-bold">
+          <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
             <Link href="/contact">
               Contact Us <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
