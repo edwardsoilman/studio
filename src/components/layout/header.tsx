@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 
@@ -23,13 +22,9 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center px-4">
         <Link href="/" className="flex items-center space-x-2 group">
-          <Image
-            src="/logo.svg"
-            alt="Meddlington Press Logo"
-            width={28}
-            height={28}
-            className="h-7 w-7 transition-transform duration-300 group-hover:scale-110"
-          />
+          <div className="h-7 w-7 bg-primary text-primary-foreground flex items-center justify-center rounded-md font-bold font-headline text-xl transition-transform duration-300 group-hover:scale-110">
+            M
+          </div>
           <span className="font-bold font-headline inline-block text-primary">
             Meddlington Press
           </span>
@@ -64,13 +59,9 @@ export function Header() {
                   href="/"
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
-                  <Image
-                    src="/logo.svg"
-                    alt="Meddlington Press Logo"
-                    width={24}
-                    height={24}
-                    className="h-6 w-6"
-                  />
+                  <div className="h-6 w-6 bg-primary text-primary-foreground flex items-center justify-center rounded-md font-bold font-headline text-lg">
+                    M
+                  </div>
                   <span className="font-bold font-headline text-primary">
                     Meddlington Press
                   </span>
