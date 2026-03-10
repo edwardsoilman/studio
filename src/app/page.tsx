@@ -75,7 +75,7 @@ export default function Home() {
               At Meddlington Press, we believe that every child deserves to see themselves in the stories they read. Our books are more than just entertainment; they are tools for building empathy, fostering understanding, and celebrating the unique ways we all experience the world. We are committed to publishing children's novels that feature neurodivergent characters and themes in a positive and empowering light.
             </p>
             <p>
-              From thrilling adventures in distant galaxies to heartwarming tales of friendship and self-discovery, our collection is carefully curated to engage young readers aged 7-12. We work with talented authors who share our vision, including those with lived experience of neurodiversity, to ensure our stories are authentic, respectful, and inspiring.
+              From thrilling adventures in distant galaxies to heartwarming tales of friendship and self-discovery, our collection is carefully curated to engage young readers. We work with talented authors who share our vision, including those with lived experience of neurodiversity, to ensure our stories are authentic, respectful, and inspiring.
             </p>
             <p>
               For parents, educators, and librarians, our titles serve as valuable resources for starting conversations about difference, inclusion, and acceptance. By providing children with diverse perspectives, we hope to nurture a generation of compassionate and open-minded individuals. Explore our catalog to find stories that will spark imagination and open hearts.
