@@ -24,7 +24,7 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-24 md:pb-28">
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-16 md:pb-20">
           <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-16 [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
             Bold, imaginative children’s books celebrating neurodiversity and curiosity.
           </p>
@@ -35,7 +35,7 @@ export default function Home() {
           </Button>
           <div className="mt-8 flex items-center justify-center text-xl text-primary-foreground [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
             <MapPin className="h-5 w-5 mr-2" />
-            <span>Westport, Ireland</span>
+            <span className="font-bold">Westport, Ireland</span>
           </div>
         </div>
       </section>
