@@ -53,9 +53,9 @@ export default function WholesalePage() {
               </CardContent>
               <CardFooter>
                 {book.status === 'Published' ? (
-                  <Button asChild className="w-full font-bold">
+                  <Button asChild className="w-full font-bold bg-accent hover:bg-accent/90 text-accent-foreground">
                     <Link href={book.ingramLink} target="_blank" rel="noopener noreferrer">
-                      Stock this Title
+                      Order now
                     </Link>
                   </Button>
                 ) : (

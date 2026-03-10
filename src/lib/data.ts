@@ -13,7 +13,7 @@ export const books: Book[] = [
     authorBio: 'W Valentine lives on the west coast of Ireland and draws inspiration from the landscapes and stories of his home.\n\nAs someone on the spectrum, he brings a unique perspective to his writing, which focuses on neurodivergent experiences to raise awareness among schools, teachers, and the wider public.\n\nHis debut novel, Orla Storm: An Interstellar Voyage, was inspired by becoming a father and a lifelong love of children’s literature.\n\nThrough vivid, technicolour characters, his stories celebrate difference, imagination, and the joy of discovery. He continues to write while building a growing family and hopes to share more adventures in future titles.',
     genre: 'Adventure',
     status: 'Published',
-    amazonLink: 'https://www.amazon.com',
+    amazonLink: 'https://www.amazon.co.uk/dp/1919383905?ref_=cm_sw_r_ffobk_cp_ud_dp_86BAQX9Z5TXC7J6JMWSV_1&bestFormat=true',
     ingramLink: '#',
     format: 'portrait',
   },

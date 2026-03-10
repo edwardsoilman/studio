@@ -67,9 +67,9 @@ export default function BookPage({ params }: BookPageProps) {
             </div>
             <div className="mt-6 text-center">
               {book.status === 'Published' ? (
-                <Button asChild size="lg" className="w-full max-w-sm font-bold">
+                <Button asChild size="lg" className="w-full max-w-sm font-bold bg-accent hover:bg-accent/90 text-accent-foreground">
                   <Link href={book.amazonLink} target="_blank" rel="noopener noreferrer">
-                    View on Amazon
+                    Order now
                   </Link>
                 </Button>
               ) : (
