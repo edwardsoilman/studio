@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, MapPin } from 'lucide-react';
@@ -33,7 +32,7 @@ export default function Home() {
               Explore Our Books <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
-          <div className="mt-8 flex items-center justify-center text-xl text-primary-foreground [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
+          <div className="mt-16 flex items-center justify-center text-xl text-primary-foreground [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
             <MapPin className="h-5 w-5 mr-2" />
             <span className="font-bold">Westport, Ireland</span>
           </div>
