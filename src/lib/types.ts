@@ -12,4 +12,5 @@ export interface Book {
   amazonLink: string;
   ingramLink: string;
   format: 'portrait' | 'square';
+  ageRange?: string;
 }

@@ -85,6 +85,9 @@ export default function BookPage({ params }: BookPageProps) {
             <Badge variant="outline" className="mb-2">{book.genre}</Badge>
             <h1>{book.title}</h1>
             <p className="text-xl !mt-0 text-muted-foreground">by {book.author}</p>
+            {book.ageRange && (
+              <p className="text-base !mt-1 text-muted-foreground">Ages: {book.ageRange}</p>
+            )}
             
             <Separator className="my-8" />
             

@@ -16,6 +16,7 @@ export const books: Book[] = [
     amazonLink: 'https://www.amazon.co.uk/dp/1919383905?ref_=cm_sw_r_ffobk_cp_ud_dp_86BAQX9Z5TXC7J6JMWSV_1&bestFormat=true',
     ingramLink: '#',
     format: 'portrait',
+    ageRange: '7-12',
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const books: Book[] = [
     amazonLink: '#',
     ingramLink: '#',
     format: 'portrait',
+    ageRange: '7-12',
   },
   {
     id: 3,
@@ -46,6 +48,7 @@ export const books: Book[] = [
     amazonLink: '#',
     ingramLink: '#',
     format: 'square',
+    ageRange: '0-5',
   },
   {
     id: 4,
@@ -61,5 +64,6 @@ export const books: Book[] = [
     amazonLink: '#',
     ingramLink: '#',
     format: 'square',
+    ageRange: '0-5',
   },
 ];

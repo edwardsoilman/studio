@@ -44,6 +44,9 @@ export function BookCard({ book }: BookCardProps) {
             {book.title}
           </h3>
           <p className="text-sm text-muted-foreground">{book.author}</p>
+          {book.ageRange && (
+            <p className="text-xs text-muted-foreground mt-1">Ages: {book.ageRange}</p>
+          )}
         </CardContent>
       </Card>
     </Link>
