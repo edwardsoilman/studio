@@ -2,6 +2,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { MapPin } from "lucide-react";
 
 export const metadata = {
   title: 'Contact Us | Meddlington Press',
@@ -19,6 +20,10 @@ export default function ContactPage() {
           <p className="mt-4 text-lg text-foreground/80">
             We’d love to hear from you.
           </p>
+          <div className="mt-4 flex items-center justify-center text-muted-foreground">
+            <MapPin className="h-5 w-5 mr-2" />
+            <span>Westport, Ireland</span>
+          </div>
         </div>
 
         <div className="bg-card p-8 rounded-lg shadow-sm">
