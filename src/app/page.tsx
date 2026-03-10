@@ -24,8 +24,8 @@ export default function Home() {
           priority
           data-ai-hint={heroImage.imageHint}
         />
-        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-10 md:pb-14">
-          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-10 [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
+        <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-end text-center pb-24 md:pb-28">
+          <p className="max-w-2xl text-xl text-primary-foreground font-bold mb-12 [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">
             Bold, imaginative children’s books celebrating neurodiversity and curiosity.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
@@ -60,6 +60,26 @@ export default function Home() {
             {highlightedBooks.map((book) => (
               <BookCard key={book.id} book={book} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Section */}
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary text-center mb-6">
+            Stories That Make a Difference
+          </h2>
+          <div className="prose prose-lg max-w-none mx-auto text-foreground/80 text-justify">
+             <p>
+              At Meddlington Press, we believe that every child deserves to see themselves in the stories they read. Our books are more than just entertainment; they are tools for building empathy, fostering understanding, and celebrating the unique ways we all experience the world. We are committed to publishing children's novels that feature neurodivergent characters and themes in a positive and empowering light.
+            </p>
+            <p>
+              From thrilling adventures in distant galaxies to heartwarming tales of friendship and self-discovery, our collection is carefully curated to engage young readers aged 7-12. We work with talented authors who share our vision, including those with lived experience of neurodiversity, to ensure our stories are authentic, respectful, and inspiring.
+            </p>
+            <p>
+              For parents, educators, and librarians, our titles serve as valuable resources for starting conversations about difference, inclusion, and acceptance. By providing children with diverse perspectives, we hope to nurture a generation of compassionate and open-minded individuals. Explore our catalog to find stories that will spark imagination and open hearts.
+            </p>
           </div>
         </div>
       </section>
