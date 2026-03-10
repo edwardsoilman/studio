@@ -30,7 +30,7 @@ export function Header() {
             height={28}
             className="h-7 w-7 transition-transform duration-300 group-hover:scale-110"
           />
-          <span className="font-bold font-body inline-block text-primary">
+          <span className="font-bold font-headline inline-block text-primary">
             Meddlington Press
           </span>
         </Link>
@@ -71,7 +71,7 @@ export function Header() {
                     height={24}
                     className="h-6 w-6"
                   />
-                  <span className="font-bold font-body text-primary">
+                  <span className="font-bold font-headline text-primary">
                     Meddlington Press
                   </span>
                 </Link>
