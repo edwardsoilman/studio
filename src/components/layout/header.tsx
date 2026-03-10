@@ -22,7 +22,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center px-4">
-        <Link href="/" className="flex items-center space-x-2 group mr-auto">
+        <Link href="/" className="flex items-center space-x-2 group">
           <Image
             src="/logo.svg"
             alt="Meddlington Press Logo"
@@ -35,7 +35,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-bold">
+        <nav className="hidden md:flex items-center space-x-6 text-sm font-bold ml-auto">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -50,7 +50,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center justify-end md:hidden">
+        <div className="flex items-center justify-end md:hidden ml-auto">
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
