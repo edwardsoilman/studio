@@ -48,14 +48,14 @@ export default function WholesalePage() {
                 </div>
               </CardHeader>
               <CardContent className="flex-grow">
-                <CardTitle className="font-headline text-primary text-xl">{book.title}</CardTitle>
+                <CardTitle className="font-headline text-xl text-primary">{book.title}</CardTitle>
                 <p className="text-sm text-muted-foreground">{book.author}</p>
               </CardContent>
               <CardFooter>
                 {book.status === 'Published' ? (
                   <Button asChild className="w-full font-bold bg-accent hover:bg-accent/90 text-accent-foreground">
                     <Link href={book.ingramLink} target="_blank" rel="noopener noreferrer">
-                      Order now
+                      Stock this title
                     </Link>
                   </Button>
                 ) : (
